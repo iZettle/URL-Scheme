@@ -1,2 +1,0 @@
-iZettle-API-sample-code
-=======================
