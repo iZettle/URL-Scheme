@@ -1,6 +1,6 @@
 #iZettle Custom URL Scheme Example Apps
 
-The iZettle Custom URL Scheme allows your iOS app to accept card payments. These two example apps explain how to develop support for card payments in your own app. Before your app can process any payments through iZettle you need to [apply for a developer key](http://developer.izettle.com/').
+The iZettle Custom URL Scheme allows your iOS app to accept card payments. These two example apps explain how to develop support for card payments in your own app. Before your app can process any payments through iZettle you need to [apply for a developer key](http://developer.izettle.com/).
 
 ##iZorn
 
@@ -57,5 +57,6 @@ All parameters should be percent-encoded. If sending an image it should be Base6
 ##References
 
 [http://izettle.com/](http://izettle.com/ "iZettle")  
+[http://developer.izettle.com/](http://developer.izettle.com/ "iZettle")  
 [Apple iOS Documentation - Implementing Custom URL Schemes](http://developer.apple.com/library/ios/#DOCUMENTATION/iPhone/Conceptual/iPhoneOSProgrammingGuide/AdvancedAppTricks/AdvancedAppTricks.html#//apple_ref/doc/uid/TP40007072-CH7-SW50)  
 [http://x-callback-url.com/](http://x-callback-url.com/ "x-callback-url.com")
