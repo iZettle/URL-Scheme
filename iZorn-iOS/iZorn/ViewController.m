@@ -137,6 +137,26 @@
     [self.descriptionTextField resignFirstResponder];
 }
 
+- (void)adjustFormIsEditing:(BOOL)isEditing {
+    if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPhone) {
+        [UIView animateWithDuration:.29 delay:.01 options:UIViewAnimationCurveEaseInOut|UIViewAnimationOptionBeginFromCurrentState animations:^{
+            
+            CGRect frame = self.modalView.frame;
+            frame.origin.y = isEditing ? -10 : 100;
+            self.modalView.frame = frame;
+            
+        } completion:nil];
+    }     
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    [self adjustFormIsEditing:YES];
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [self adjustFormIsEditing:NO];
+}
+
 
 #pragma mark - Communicate with the iZettle app
 
