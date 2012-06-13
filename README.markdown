@@ -32,7 +32,7 @@ All parameters should be percent-encoded. If sending an image it should be Base6
 
 `price` - the amount to be charged
 
-`curency` - currency to be used, if this does not match the currency currently used by iZettle the x-failure URL will be called with the error code `InvalidCurrency``
+`currency` - currency to be used, if this does not match the currency currently used by iZettle the x-failure URL will be called with the error code `InvalidCurrency``
 
 `title` - title for the purchase, will be displayed in the iZettle app and in the purchase history of the seller as well as on the receipt sent to the buyer
 
