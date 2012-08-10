@@ -50,6 +50,7 @@
 		3FA3D7E8157CB51E00C2EEBB /* sell-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3D7DC157CB51E00C2EEBB /* sell-button.png */; };
 		3FA3D7E9157CB51E00C2EEBB /* sell-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA3D7DD157CB51E00C2EEBB /* sell-button@2x.png */; };
 		3FA3D7F0157CECB300C2EEBB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA3D7EF157CECB300C2EEBB /* NSData+Base64.m */; };
+		CD7C58EC15D537FB00995E76 /* UIView+ValidationError.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7C58EB15D537FB00995E76 /* UIView+ValidationError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +104,8 @@
 		3FA3D7DD157CB51E00C2EEBB /* sell-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sell-button@2x.png"; path = "Images/sell-button@2x.png"; sourceTree = "<group>"; };
 		3FA3D7EE157CECB300C2EEBB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		3FA3D7EF157CECB300C2EEBB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		CD7C58EA15D537FB00995E76 /* UIView+ValidationError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ValidationError.h"; sourceTree = "<group>"; };
+		CD7C58EB15D537FB00995E76 /* UIView+ValidationError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ValidationError.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				3FA3D7EF157CECB300C2EEBB /* NSData+Base64.m */,
 				31123E6C156A43B000F2473B /* Supporting Files */,
 				31123E8C156A578300F2473B /* Images */,
+				CD7C58EA15D537FB00995E76 /* UIView+ValidationError.h */,
+				CD7C58EB15D537FB00995E76 /* UIView+ValidationError.m */,
 			);
 			path = iZorn;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				31123E7F156A43B000F2473B /* ViewController.m in Sources */,
 				31123E87156A440200F2473B /* PaintingView.m in Sources */,
 				3FA3D7F0157CECB300C2EEBB /* NSData+Base64.m in Sources */,
+				CD7C58EC15D537FB00995E76 /* UIView+ValidationError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

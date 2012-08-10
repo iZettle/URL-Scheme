@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "PaintingView.h"
+#import "UIView+ValidationError.h"
 
 @interface ViewController : UIViewController <PaintingViewProtocol>
 

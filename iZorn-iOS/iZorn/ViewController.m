@@ -133,6 +133,8 @@
         self.modalView.alpha = 0.0;
         self.dimmerView.alpha = 0.0;
     }];
+    [self.amountTextField setText:@""];
+    [self.descriptionTextField setText:@""];
     [self.amountTextField resignFirstResponder];
     [self.descriptionTextField resignFirstResponder];
 }
@@ -157,7 +159,6 @@
     [self adjustFormIsEditing:NO];
 }
 
-
 #pragma mark - Communicate with the iZettle app
 
 // Helper method to correctly escape the params sent to the iZettle app
@@ -176,6 +177,16 @@
     NSString *apiKey = @"demo-app-izorn";
     NSString *escapedPrice = [self.amountTextField.text stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSString *escapedDescription = [self.descriptionTextField.text stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    if([escapedDescription length] <= 0) {
+        [self.modalView showValidationError];
+        return;
+    }
+    
+    if([[[NSRegularExpression regularExpressionWithPattern:@"^\\d+$" options:0 error:nil] matchesInString:escapedPrice options:0 range:NSMakeRange(0, escapedPrice.length)] count] == 0) {
+        [self.modalView showValidationError];
+        return;
+    }
     
    // NSString *encodedDescription = [self.paintingView.image
     
