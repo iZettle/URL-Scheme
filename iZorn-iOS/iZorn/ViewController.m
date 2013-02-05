@@ -219,6 +219,11 @@
     NSLog(@"handleURL: %@", url);
     if ([[url absoluteString] hasPrefix:@"izorn://success"]) {
         MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+        if (!picker) {
+            [self closeModal:nil];
+            [self.paintingView erase];
+            return YES;
+        }
         picker.mailComposeDelegate = self;
         [picker setSubject:self.descriptionTextField.text];
         [picker addAttachmentData:UIImageJPEGRepresentation(self.paintingView.image, .8) mimeType:@"image/jpeg" fileName:self.descriptionTextField.text];
