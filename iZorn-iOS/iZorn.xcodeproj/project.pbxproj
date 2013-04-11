@@ -414,10 +414,12 @@
 		31123E83156A43B000F2473B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iZorn/iZorn-Prefix.pch";
 				INFOPLIST_FILE = "iZorn/iZorn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -425,10 +427,12 @@
 		31123E84156A43B000F2473B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iZettle AB";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iZorn/iZorn-Prefix.pch";
 				INFOPLIST_FILE = "iZorn/iZorn-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "37E58C11-BC6C-465C-B9DF-C6A0D05D3F3D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
