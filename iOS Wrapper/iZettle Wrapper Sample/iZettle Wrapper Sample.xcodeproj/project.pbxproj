@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43DED1A1ACBE89F0091D0E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED191ACBE89F0091D0E0 /* main.m */; };
+		B43DED1D1ACBE89F0091D0E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED1C1ACBE89F0091D0E0 /* AppDelegate.m */; };
+		B43DED201ACBE89F0091D0E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED1F1ACBE89F0091D0E0 /* ViewController.m */; };
+		B43DED251ACBE89F0091D0E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43DED241ACBE89F0091D0E0 /* Images.xcassets */; };
+		B43DED281ACBE89F0091D0E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43DED261ACBE89F0091D0E0 /* LaunchScreen.xib */; };
+		B43DED411ACBE9030091D0E0 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DED3D1ACBE9030091D0E0 /* Main~ipad.storyboard */; };
+		B43DED421ACBE9030091D0E0 /* Main~iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DED3F1ACBE9030091D0E0 /* Main~iphone.storyboard */; };
+		B43DED451ACBE9160091D0E0 /* AmountWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED441ACBE9160091D0E0 /* AmountWheel.m */; };
+		B43DED481ACBE92B0091D0E0 /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED471ACBE92B0091D0E0 /* ConsoleViewController.m */; };
+		B43DED531ACBF59A0091D0E0 /* iZettleURLScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DED521ACBF59A0091D0E0 /* iZettleURLScheme.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B43DED141ACBE89F0091D0E0 /* iZettle Wrapper Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iZettle Wrapper Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DED181ACBE89F0091D0E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43DED191ACBE89F0091D0E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B43DED1B1ACBE89F0091D0E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B43DED1C1ACBE89F0091D0E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B43DED1E1ACBE89F0091D0E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B43DED1F1ACBE89F0091D0E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B43DED241ACBE89F0091D0E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B43DED271ACBE89F0091D0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B43DED3E1ACBE9030091D0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~ipad.storyboard"; sourceTree = "<group>"; };
+		B43DED401ACBE9030091D0E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main~iphone.storyboard"; sourceTree = "<group>"; };
+		B43DED431ACBE9160091D0E0 /* AmountWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountWheel.h; sourceTree = "<group>"; };
+		B43DED441ACBE9160091D0E0 /* AmountWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountWheel.m; sourceTree = "<group>"; };
+		B43DED461ACBE92B0091D0E0 /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
+		B43DED471ACBE92B0091D0E0 /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
+		B43DED511ACBF59A0091D0E0 /* iZettleURLScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iZettleURLScheme.h; path = ../../iZettleURLScheme/iZettleURLScheme.h; sourceTree = "<group>"; };
+		B43DED521ACBF59A0091D0E0 /* iZettleURLScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iZettleURLScheme.m; path = ../../iZettleURLScheme/iZettleURLScheme.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43DED111ACBE89F0091D0E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43DED0B1ACBE89F0091D0E0 = {
+			isa = PBXGroup;
+			children = (
+				B43DED161ACBE89F0091D0E0 /* iZettle Wrapper Sample */,
+				B43DED151ACBE89F0091D0E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43DED151ACBE89F0091D0E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43DED141ACBE89F0091D0E0 /* iZettle Wrapper Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43DED161ACBE89F0091D0E0 /* iZettle Wrapper Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B43DED511ACBF59A0091D0E0 /* iZettleURLScheme.h */,
+				B43DED521ACBF59A0091D0E0 /* iZettleURLScheme.m */,
+				B43DED1B1ACBE89F0091D0E0 /* AppDelegate.h */,
+				B43DED1C1ACBE89F0091D0E0 /* AppDelegate.m */,
+				B43DED1E1ACBE89F0091D0E0 /* ViewController.h */,
+				B43DED1F1ACBE89F0091D0E0 /* ViewController.m */,
+				B43DED461ACBE92B0091D0E0 /* ConsoleViewController.h */,
+				B43DED471ACBE92B0091D0E0 /* ConsoleViewController.m */,
+				B43DED431ACBE9160091D0E0 /* AmountWheel.h */,
+				B43DED441ACBE9160091D0E0 /* AmountWheel.m */,
+				B43DED241ACBE89F0091D0E0 /* Images.xcassets */,
+				B43DED261ACBE89F0091D0E0 /* LaunchScreen.xib */,
+				B43DED3D1ACBE9030091D0E0 /* Main~ipad.storyboard */,
+				B43DED3F1ACBE9030091D0E0 /* Main~iphone.storyboard */,
+				B43DED171ACBE89F0091D0E0 /* Supporting Files */,
+			);
+			path = "iZettle Wrapper Sample";
+			sourceTree = "<group>";
+		};
+		B43DED171ACBE89F0091D0E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43DED181ACBE89F0091D0E0 /* Info.plist */,
+				B43DED191ACBE89F0091D0E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43DED131ACBE89F0091D0E0 /* iZettle Wrapper Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43DED371ACBE89F0091D0E0 /* Build configuration list for PBXNativeTarget "iZettle Wrapper Sample" */;
+			buildPhases = (
+				B43DED101ACBE89F0091D0E0 /* Sources */,
+				B43DED111ACBE89F0091D0E0 /* Frameworks */,
+				B43DED121ACBE89F0091D0E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iZettle Wrapper Sample";
+			productName = "iZettle Wrapper Sample";
+			productReference = B43DED141ACBE89F0091D0E0 /* iZettle Wrapper Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43DED0C1ACBE89F0091D0E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iZettle;
+				TargetAttributes = {
+					B43DED131ACBE89F0091D0E0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B43DED0F1ACBE89F0091D0E0 /* Build configuration list for PBXProject "iZettle Wrapper Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43DED0B1ACBE89F0091D0E0;
+			productRefGroup = B43DED151ACBE89F0091D0E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43DED131ACBE89F0091D0E0 /* iZettle Wrapper Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43DED121ACBE89F0091D0E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DED281ACBE89F0091D0E0 /* LaunchScreen.xib in Resources */,
+				B43DED251ACBE89F0091D0E0 /* Images.xcassets in Resources */,
+				B43DED411ACBE9030091D0E0 /* Main~ipad.storyboard in Resources */,
+				B43DED421ACBE9030091D0E0 /* Main~iphone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43DED101ACBE89F0091D0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DED201ACBE89F0091D0E0 /* ViewController.m in Sources */,
+				B43DED451ACBE9160091D0E0 /* AmountWheel.m in Sources */,
+				B43DED531ACBF59A0091D0E0 /* iZettleURLScheme.m in Sources */,
+				B43DED481ACBE92B0091D0E0 /* ConsoleViewController.m in Sources */,
+				B43DED1D1ACBE89F0091D0E0 /* AppDelegate.m in Sources */,
+				B43DED1A1ACBE89F0091D0E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B43DED261ACBE89F0091D0E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DED271ACBE89F0091D0E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B43DED3D1ACBE9030091D0E0 /* Main~ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DED3E1ACBE9030091D0E0 /* Base */,
+			);
+			name = "Main~ipad.storyboard";
+			sourceTree = "<group>";
+		};
+		B43DED3F1ACBE9030091D0E0 /* Main~iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DED401ACBE9030091D0E0 /* Base */,
+			);
+			name = "Main~iphone.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43DED351ACBE89F0091D0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43DED361ACBE89F0091D0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43DED381ACBE89F0091D0E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iZettle Wrapper Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B43DED391ACBE89F0091D0E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iZettle Wrapper Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43DED0F1ACBE89F0091D0E0 /* Build configuration list for PBXProject "iZettle Wrapper Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DED351ACBE89F0091D0E0 /* Debug */,
+				B43DED361ACBE89F0091D0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43DED371ACBE89F0091D0E0 /* Build configuration list for PBXNativeTarget "iZettle Wrapper Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DED381ACBE89F0091D0E0 /* Debug */,
+				B43DED391ACBE89F0091D0E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43DED0C1ACBE89F0091D0E0 /* Project object */;
+}
