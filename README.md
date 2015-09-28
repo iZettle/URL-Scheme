@@ -1,6 +1,6 @@
 # iZettle URL Scheme
 
-**Note: the iZettle URL Scheme is only avaiblable for iOS at the moment.**
+**Note: the iZettle URL Scheme is only available for iOS at the moment.**
 
 iZettle allows you to take payments from your own app or website with a URL Scheme. The document below describes the protocol used to communicate with the iZettle app.
 
